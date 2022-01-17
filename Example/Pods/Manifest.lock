@@ -1,0 +1,16 @@
+PODS:
+  - WPlayer (0.1.0)
+
+DEPENDENCIES:
+  - WPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  WPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WPlayer: 78b3a05686a651b3ce32652d1e403a2a8e8ad357
+
+PODFILE CHECKSUM: 810b503a31a6684a8f6ce16142f2add6ba10fc7f
+
+COCOAPODS: 1.11.2

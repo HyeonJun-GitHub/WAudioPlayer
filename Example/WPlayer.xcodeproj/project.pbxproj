@@ -12,11 +12,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		570355501C6CAA18A3B2D56F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		570355501C6CAA18A3B2D56F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86E73A86B6D8D70A8ADD8DB4 /* Pods-WPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-WPlayer_Tests/Pods-WPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9475BAC7A32C47CA9FD45F06 /* Pods_WPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9634264816358B9510B1FEF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B1C3E4591FF84F7EF56907A7 /* WPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WPlayer.podspec; path = ../WPlayer.podspec; sourceTree = "<group>"; };
+		9634264816358B9510B1FEF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B1C3E4591FF84F7EF56907A7 /* WPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WPlayer.podspec; path = ../WPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B70DAF3786C81D8A96B78736 /* Pods-WPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WPlayer_Tests/Pods-WPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED83F68A20348A760038D96B /* WPlayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPlayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -41,7 +41,6 @@
 				B70DAF3786C81D8A96B78736 /* Pods-WPlayer_Tests.debug.xcconfig */,
 				86E73A86B6D8D70A8ADD8DB4 /* Pods-WPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,10 +122,6 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					ED83F67720348A760038D96B = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 					ED83F68920348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
